@@ -54,7 +54,7 @@
             <div className='menu'>
                 {
                     this.state.sections.map(({id, ...otherSectionProps  })=>(
-                        <MenuItem key={id} {...otherSectionProps } />
+                        <MenuItem key={id} {...otherSectionProps }  />
                     ))
                 }
             </div>
