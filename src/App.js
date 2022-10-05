@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import './App.scss';
 import HomePage from "./pages/home/home";
 import Navigation from './pages/navigation/navigation';
+import SignIn from './pages/sign-in/sign-in';
 
 const Shop = () => {
   return (
@@ -19,6 +20,8 @@ const App = () => {
         <Route index element={<HomePage />
         } />
         <Route path='shop' element={<Shop />} />
+        <Route path='sign-in' element={<SignIn />} />
+
       </Route>
     </Routes>
   )
